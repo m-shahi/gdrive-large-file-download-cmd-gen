@@ -1,4 +1,4 @@
-# Google Drive Large File Downloader
+# Google Drive Large File Download Command Generator
 
 ## Description
 This script facilitates the downloading of large files from Google Drive on Linux systems. It generates a curl command and copies it to the clipboard, making it easy to start the download from the terminal.
