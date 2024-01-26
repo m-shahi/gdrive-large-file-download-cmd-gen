@@ -13,5 +13,5 @@ Clone this repository or download the script directly. Make sure Python is insta
 ## usage
 run
 ```
-python download_cmd_gen.py <file-id> <output-file-name>
+python gdrive_cmd_gen.py <file_id> <output_filename>
 ```
