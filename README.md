@@ -1,14 +1,17 @@
 # Google Drive Large File Downloader
 
 ## Description
-This script helps you download large files from Google Drive on Linux systems.
+This script facilitates the downloading of large files from Google Drive on Linux systems. It generates a curl command and copies it to the clipboard, making it easy to start the download from the terminal.
 
-## Usage
-- Replace `file-id-` with your Google Drive file ID.
-- Replace `myfilename.ext` with your desired output filename.
-- Run the script, and it will copy the download command to your clipboard.
+## Installation
+Clone this repository or download the script directly. Make sure Python is installed on your system.
 
 ## Requirements
 - Python
 - Pyperclip (`pip install pyperclip`)
 
+## usage
+run
+```
+python download_cmd_gen.py <file-id> <output-file-name>
+```
